@@ -23,6 +23,8 @@ export class AppComponent {
     }
   };
   date = new Date();
+  video = 'mOeSfOJrUIk';
+  active: boolean = true;
 
   promiseValue = new Promise((resolve) => {
     setTimeout( () => resolve('Llego la data :)'), 3000);
